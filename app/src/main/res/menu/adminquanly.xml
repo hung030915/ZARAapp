@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_admin_qlnv"
+    android:title=""
+    android:icon="@drawable/people"
+    />
+    <item android:id="@+id/menu_admin_qlkh"
+        android:icon="@drawable/many_people"
+        android:title=""
+        />
+    <item android:id="@+id/menu_admin_thongke"
+        android:title=""
+        android:icon="@drawable/barchart"
+        />
+    <item android:id="@+id/menu_admin_qlsp"
+        android:title=""
+        android:icon="@drawable/sportshoe"
+        />
+
+    <item android:id="@+id/menu_admin_resetpass"
+        android:title=""
+        android:icon="@drawable/resetpassword"
+        />
+
+</menu>

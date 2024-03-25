@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ManHinhNhanVien">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#FFFFFF"
+        android:id="@+id/toolbar_nhanvien"
+        app:menu="@menu/menu_toolbar"
+        />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcv_Nhanvien"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:itemActiveIndicatorStyle="@drawable/shape_icon2"
+        app:itemIconTint="@color/white"
+        android:id="@+id/bnv_NhanVien"
+        app:menu="@menu/nhanvienquanly" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_none"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:background="@color/white"
+           android:padding="10dp"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Cập nhật thông tin"
+               android:textSize="24dp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:layout_margin="10dp"
+               android:id="@+id/tv_suaTaiKhoan"
+               />
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:scaleType="centerCrop"
+               android:background="@drawable/them_anh"
+               android:layout_marginBottom="10px"
+               android:id="@+id/imv_addAnh_edit"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/shape_edittext"
+               android:hint="Họ và tên"
+               android:padding="10dp"
+               android:textColor="#000000"
+               android:textColorHint="#000000"
+               android:layout_marginBottom="10dp"
+               android:id="@+id/edt_hoten_edit"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/shape_edittext"
+               android:hint="Email"
+               android:padding="10dp"
+               android:textColor="#000000"
+               android:textColorHint="#000000"
+               android:layout_marginBottom="10dp"
+               android:id="@+id/edt_email_edit"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/shape_edittext"
+               android:hint="Số điện thoại"
+               android:padding="10dp"
+               android:inputType="number"
+               android:textColor="#000000"
+               android:textColorHint="#000000"
+               android:layout_marginBottom="10dp"
+               android:id="@+id/edt_sdt_edit"/>
+
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/shape_btn"
+               android:layout_marginTop="10dp"
+               android:text="Cập nhật ngay"
+               android:textColor="@color/white"
+               android:textStyle="bold"
+               android:id="@+id/btn_edit"/>
+       </LinearLayout>
+</androidx.cardview.widget.CardView>

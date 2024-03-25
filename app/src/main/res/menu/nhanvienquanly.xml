@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu_nhanvien_qlsp"
+        android:title=""
+        android:icon="@drawable/sportshoe"
+        />
+
+    <item android:id="@+id/menu_nhanvien_thongke"
+        android:title=""
+        android:icon="@drawable/barchart"
+        />
+    <item android:id="@+id/menu_nhanvien_qlhd"
+        android:title=""
+        android:icon="@drawable/bill"
+        />
+
+    <item android:id="@+id/menu_nhanvien_resetpass"
+        android:title=""
+        android:icon="@drawable/resetpassword"
+        />
+
+</menu>
